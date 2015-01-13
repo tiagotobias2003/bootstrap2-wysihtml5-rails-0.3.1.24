@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.summary       = gem.description
   gem.license       = 'MIT'
 
-  gem.name          = "bootstrap-wysihtml5-rails"
+  gem.name          = "bootstrap2-wysihtml5-rails"
   gem.require_paths = ["lib"]
   gem.files         = `git ls-files`.split("\n").reject { |i| i=~/testapp/}
   gem.version       = BootstrapWysihtml5Rails::Rails::VERSION
